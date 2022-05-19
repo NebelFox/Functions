@@ -3,4 +3,4 @@ project(4_functions)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(4_functions main.cpp stack.hpp function.cpp function.h stash.hpp stash.cpp stash.h)
+add_executable(4_functions main.cpp Compiler.hpp Function.hpp Token.hpp Grammar.hpp Calculator.hpp)
